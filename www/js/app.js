@@ -78,6 +78,19 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     }
   })
+  .state('tab.setting.individul', {
+    url: '/individul',
+    views: {
+      'tab-individul': {
+        templateUrl: 'templates/tab-individul.html',
+        
+      }
+    }
+  })
+  // .state('home', {
+  //   url: '/home',
+  //   templateUrl: 'templates/tab-individul.html', 
+  // })
    .state('tab.setting', {
     url: '/setting',
     views: {
