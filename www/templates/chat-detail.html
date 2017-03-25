@@ -7,7 +7,7 @@
 <ion-view view-title="{{chat.name}}">
   <ion-content class="padding">
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="item in chat.detail" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="item in chat.detail" type="item-text-wrap" href="#/tab/chats/{{chat.id.detail}}">
         <img ng-src="{{chat.face}}">
         <h2>{{item}}</h2>
         <i class="icon ion-chevron-right icon-accessory"></i>

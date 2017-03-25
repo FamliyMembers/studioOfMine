@@ -1,0 +1,57 @@
+<ion-view view-title="个人中心">
+  <!--<ion-content class="padding">
+   <ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
+
+        <ion-item ng-repeat="item in items" 
+                  item="item"
+                  href="#/item/{{item.id}}" class="item-remove-animate">
+          hello,{{ item.id }}!
+          <ion-delete-button class="ion-minus-circled" 
+                             ng-click="onItemDelete(item)">
+          </ion-delete-button> 
+          <ion-option-button class="button-assertive"
+                             ng-click="edit(item)">
+            Edit
+          </ion-option-button>
+          <ion-option-button class="button-calm"
+                             ng-click="share(item)">
+            Share
+          </ion-option-button>
+          <ion-reorder-button class="ion-navicon" on-reorder="moveItem(item, $fromIndex, $toIndex)"></ion-reorder-button>
+        </ion-item>
+
+      </ion-list>
+  </ion-content>-->
+      <!--</div>-->
+    
+    <div class="content has-header ionic-pseudo">
+
+      <div class="list">
+
+        <a class="item item-icon-left" href="#">
+          <i class="icon ion-person"></i>
+          个人资料
+        </a>
+
+        <a class="item item-icon-left " href="#">
+          <i class="icon ion-chatbubble-working"></i>
+          使用说明
+        </a>
+
+        <a class="item item-icon-left" href="#">
+          <i class="icon ion-mic-a"></i>
+          检查中心
+          <span class="item-note">
+          </span>
+        </a>
+
+        <a class="item item-icon-left" href="#">
+          <i class="icon ion-email"></i>
+         我的消息
+          <span class="badge badge-assertive">5</span>
+        </a>
+
+      </div>
+
+    </div>
+</ion-view>
